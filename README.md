@@ -1,2 +1,2 @@
 # xml.TEI
-XML-TEI work of my making
+XML-TEI works of my making
