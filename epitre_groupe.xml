@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:ns2="http://www.tei-c.org/ns/Examples"
+     xmlns:ns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les épitres héroïdes</title>
+        <author>François Habert</author>
+      </titleStmt>
+      <editionStmt>
+        <edition><date>2022-10-28</date></edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Université de Rouen</publisher>
+        <availability status="free">
+<licence
+target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed
+under a Creative Commons Attribution-ShareAlike 4.0 Unported
+License<p>Copyright 2013 TEI Consortium.</p><p>All rights
+reserved.</p><p>Redistribution and use in source and binary forms,
+with or without modification, are permitted provided that the
+following conditions are met:</p><list>
+    <item>Redistributions of source code must retain the above
+    copyright notice, this list of conditions and the following
+    disclaimer.</item>
+    <item>Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions and the following
+    disclaimer in the documentation and/or other materials provided
+    with the distribution.</item>
+  </list><p>This software is provided by the copyright holders and
+contributors "as is" and any express or implied warranties,
+including, but not limited to, the implied warranties of
+merchantability and fitness for a particular purpose are disclaimed.
+In no event shall the copyright holder or contributors be liable for
+any direct, indirect, incidental, special, exemplary, or
+consequential damages (including, but not limited to, procurement of
+substitute goods or services; loss of use, data, or profits; or
+business interruption) however caused and on any theory of
+liability, whether in contract, strict liability, or tort (including
+negligence or otherwise) arising in any way out of the use of this
+software, even if advised of the possibility of such
+damage.</p><p>TEI material can be licensed differently depending on
+the use you intend to make of it. Hence it is made available under
+both the CC+BY and BSD-2 licences. The CC+BY licence is generally
+appropriate for usages which treat TEI content as data or
+documentation. The BSD-2 licence is generally appropriate for usage
+of TEI content in a software environment. For further information or
+clarification, please contact the<ref
+target="mailto:info@tei-c.org">TEI Consortium</ref>.</p></licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Epistre III. de S.Marguerite estat en prison, à sa mere
+        Nourrice.</title>
+        <respStmt>
+<resp>édité par</resp>
+<name>Sandra Provini</name>
+        </respStmt>
+      </seriesStmt>
+      <notesStmt>
+        <note>Cet écrit est une transposition chrétienne des héroïdes que
+        François Habert fait paraître en 1550. L’ouvrage est alors composé de
+        seize épîtres, mais dix autres supplémentaires y seront ajoutées en
+        1560 dans une seconde édition qui comptera cette fois deux livres. Les
+        figures mythologiques habituelles s’effacent dans une visée morale
+        pour laisser place à des femmes ayant en commun leur amour de Dieu et
+        leur attachement à la vertu, qu’elles transmettent dans leurs
+        lettres.</note>
+      </notesStmt>
+      <sourceDesc>
+        <biblStruct>
+<monogr>
+  <editor>L. Delisle, Chantilly</editor>
+  <title>Les Epistres heroides, tres salutaires, pour servir
+  d'exemple a toute ame fidele, Composees par F. Habert d'Yssouldun
+  en Berry, avec aucuns Epigrammes, Cantiques spirituelz, et
+  Alphabet moral pour l'instruction d'un jeune Prince, ou Princesse.
+  Item la Paraphrase Latine, et Françoyse sur l'oraison
+  Dominicale.</title>
+  <imprint>
+    <pubPlace>: Paris, de l’imprimerie de Michel Fezandat, et Robert
+    Granjon, au Mont S. Hylaire, à l’enseigne des Grandz
+    Jons.</pubPlace>
+    <publisher>Michel Fezandat, et Robert Granjon</publisher>
+    <date>1550</date>
+  </imprint>
+</monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <samplingDecl>
+        <p>Editorial notes in the edition have not been reproduced.</p>
+        <p>Blank lines and multiple blank spaces, including paragraph indents,
+        have not been preserved.</p>
+      </samplingDecl>
+      <editorialDecl>
+ <normalization>
+  <p>Le "O" vocatif en début de vers, orthographié "O" dans l'épitre a été corrigé dans son orthographe correcte "Ô".
+  </p>
+ </normalization>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="bnf">
+<bibl>Bibliothèque nationale de France</bibl>
+        </taxonomy>
+        <taxonomy xml:id="bmp">
+<bibl>Bibliothèque Mazarine de Paris (8° 44755; inc. des 1ers et
+dern. ff.)</bibl>
+        </taxonomy>
+        <taxonomy xml:id="nbl">
+<bibl>Chicago(US,Il), Newberry library(Wing ZP 539 .F437)</bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change when="2022-12-06" who="#MSM">finished proofreading</change>
+      <change when="2022-12-06" who="#LB">finished proofreading</change>
+      <change notBefore="2022-12-06" who="#RG">finished data entry at end of
+      term</change>
+      <change notAfter="2022-12-06" who="#RG">began data entry before New Year
+      2023</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p rend="Title" style="text-align: center;">PROJET NUMERIQUE</p>
+       <l>Car<persName key="jesusChrist">Iesuschrist <note type="index">Jésus
+      Christ, juif de Palestine, personnage central des quatre Évangiles et
+      fondateur du christianisme.</note></persName>est mon seul <persName
+      key="dieu">Dieu <note type="index">Divinité chrétienne
+      unique</note></persName>sans doubte,</l>
+      <l>Pour les pecheurs iadis crucifié.</l>
+      <l>C’est luy qui doibt estre glorifié,</l>
+      <l>Et non les Dieux, dont tu as congnoissance :</l>
+      <l>Car ilz ont piedz, &amp; n’ont <note type="gloss">poinct<label>adv.
+      de nég.</label></note>de puissance</l>
+      <pb n="f. 25 r°"/>
+      <l>De cheminer.des yeux ont auβi bien,</l>
+      <l>Mais en tout temps (certes) il ne voient rien.</l>
+      <l>Ilz ont des Nez, mais pour t’en aduertir,</l>
+      <l>Ilz n’ont pouuoir d'<note type="gloss">odorer<label>percevoir par
+      l'odorat</label></note>, ne sentir.</l>
+      <l>Ilz ont des mains, mais rien ilz ne manient :</l>
+      <l>Des gosiers ont, mais iamais ilz ne crient.</l>
+      <l>Aureilles ont, &amp; ne peuuent entendre :</l>
+      <l>Des bouches ont, mais voix n’en peult descendre.</l>
+      <l>Bref de tes Dieux qui sont de telle sorte</l>
+      <l>Ce n’est sinon que chose vaine &amp; morte,</l>
+      <l>Que deuant toy inutiles ie nomme,</l>
+      <l>Puis qu’ilz sont faicts d’ouurage &amp; de main d’homme.</l>
+      <l>Voila pourquoy (puis que tu le poursuys)</l>
+      <l>Ie fuy tes Dieux, &amp; Chrestienne ie suis.</l>
+      <l><space quantity="2" unit="cm"/>De ce propos &amp; derniere
+      parolle</l>
+      <l><persName key="olibrius">Olibrius <note type="index">Hypothétique
+      gouverneur romain, et plus particulièrement d'Antioche. Personnage
+      récurrent de légendes populaire qui aurait martyrisé sainte
+      Marguerite.</note></persName>grandement se desole.</l>
+      <l>Et par amour, qui encores le <note type="gloss">poingt<label>vb.
+      «poindre» au fig., «inquiéter, tourmenter», emploi pronominal
+      3PS</label></note>,</l>
+      <l>Il me respond ainsi sur chascun poinct.</l>
+      <l>Vierge qui as de grand beaulté le <note
+      type="gloss">lustre<label>éclat</label></note></l>
+      <l>Aise ie suis de ton lignage illustre,</l>
+      <l>Encores plus de la beaulté exquise</l>
+      <l>Que par le don de naturɇ as acquise,</l>
+      <l>Mais à tel don qui de nature vient</l>
+      <l>Relligion si faulse ne conuient,</l>
+      <l>Et m’esbahys comme ton cueur s’<note type="gloss">estrange<label>vb.
+      «estranger», emploi pronominal «s’éloigner» 3PS</label></note>,</l>
+      <l>De verité, pour seruir Dieu <note
+      type="gloss">estrange<label>étranger</label></note></l>
+      <pb n="f. 25 v°"/>
+      <l>En adorant ce faulx Dieu que tu crois</l>
+      <l>Auoir souffert pour toy la Mort en croix,</l>
+      <l>Si te supply ne te mettre en tel songe</l>
+      <l>Car ce n’est rien que folliɇ &amp; mensonge.</l>
+      <l>Croy en mes Dieux, croy aux Dieux ou ton pere</l>
+      <l>(Commɇ en vray Dieux) se confiɇ, &amp; espere.</l>
+      <l>Par ce moyen mon alliancɇ auras,</l>
+      <l>Et en honneur mon espouse seras.</l>
+      <l>Homɇ aueuglé (dis ie) tu es en l’umbre</l>
+      <l>Ou lon ne voit que malheur &amp; <note
+      type="gloss">encombre<label>embarras</label></note>,</l>
+      <l>Point ne me plaist ton <note type="gloss">acointancɇ <label>relation
+      sentimentale</label></note>auoir</l>
+      <l>Pour delaisser mon virginal debuoir</l>
+      <l>Qui faict honneur au Createur celeste</l>
+      <l>Qui gardera de tout danger <note type="gloss">moleste<label>qui cause
+      du tort</label></note></l>
+      <l>Celles &amp; ceux qui luy obeiront,</l>
+      <l>Et à sa loy point ne contrediront,</l>
+      <l>M’esbahissant de tes sens trop <note
+      type="gloss">debiles<label>faibles</label></note></l>
+      <l>Veu que de luy ont parlé les <orgName key="sibylles">Sibylles<note
+      type="index"/>Prophétesses reliées à Apollon.</orgName></l>
+      <l>Prophetisants, pour fairɇ à tous comprendre</l>
+      <l>Que le vray Dieu en la croix debuoit pendre.</l>
+      <l>Et autres maints Prophetes ont predict</l>
+      <l>L’aduenement du Dieu que ie t’ay dict.</l>
+      <l>Mesmes voz Dieux, esprits <note
+      type="gloss">Demoniacles<label>possédé du démon</label></note></l>
+      <l>De me contraindrɇ à parler d’autre Dieu.</l>
+      <l>Luy suppliant que la grace il te donne</l>
+      <pb n="f. 26 r°"/>
+      <l>De le sentir pour auoir la couronne</l>
+      <l>Qui est promisɇ &amp; preparée aux bons</l>
+      <l>Qui en erreurs n’ont esté vagabons.</l>
+      <l><space quantity="2" unit="cm"/>Alors soubdain oyant ma voix
+      derniere</l>
+      <l><persName key="olibrius">Olibrius <note type="index">Hypothétique
+      gouverneur romain, et plus particulièrement d'Antioche. Personnage
+      récurrent de légendes populaire qui aurait martyrisé sainte
+      Marguerite.</note></persName>d’une <note type="gloss">veuɇ
+      <label>regard</label></note>&amp; fiere</l>
+      <l>Me regardoit, &amp; la flamɇ en changea</l>
+      <l>Qui à m’aymer nagueres le rangea,</l>
+      <l>En commandant d’une voix <note type="gloss">asprɇ
+      <label>déplaisante</label></note>&amp; dure</l>
+      <l>Qu’on me menast en <note
+      type="gloss">Chartre<label>prison</label></note>tresobscure</l>
+      <l>Ou à present i’endure <note type="gloss">grief<label>lourd,
+      pesant</label></note>tourment,</l>
+      <l>Mais enuers Dieu gist tout mon <note type="gloss">pensement<label>ma
+      pensée</label></note>.</l>
+      <l>Qui m’a donné tousiours forcɇ &amp; vigueur</l>
+      <l>De supporter du Tyrant la rigueur,</l>
+      <l>Au lieu d’auoir vn lict dans vne chambre,</l>
+      <l>Ie couchɇ à Terrɇ, &amp; n’ay veine <note
+      type="gloss">ne<label>conjonction, «ni»</label></note>membre</l>
+      <l>Qui ne soit las de porter ces <note
+      type="gloss">trauaux<label>tourments</label></note>.</l>
+      <l>Mais lors ie dy, ô mon Dieu qui tant vaulx</l>
+      <l>Donne secours à l’humble <note
+      type="gloss">chamberriere<label>servante</label></note></l>
+      <l>Qui à toy seul addresse sa priere,</l>
+      <l>Toy ma Nourricɇ en lisant mes escripts</l>
+      <l>Escoutɇ encor mes complainctes &amp; cris,</l>
+      <l>Et les tourments dont i’ay esté pourueue</l>
+      <l>Depuis vn peu que ton œil ne m’a veue.</l>
+      <l>Vn iour apres mon emprisonnement</l>
+      <l>Ce faulx <persName key="prévot">Preuost<note type="index">Officier de
+      justice ou administrateur</note></persName>n’ayant entierement</l>
+      <l>Laiβé le feu, &amp; ardentɇ estincelle</l>
+      <l>Ou l’auoit mis ma forme corporelle,</l>
+      <pb n="f. 26 v°"/>
+      <l>Me faict tirer du lieu ou les Crapaux</l>
+      <l>Aspics, Lezards, me faisoient durs <note
+      type="gloss">assaux<label>attaque</label></note>,</l>
+      <l>En me disant, pensɇ à mon amytié</l>
+      <l><orig>O</orig>
+<reg>Ô</reg> <persName key="marguerite">Margueritɇ<note type="index">Marguerite
+      d’Antioche ou sainte Marguerite, figure chrétienne de protection des
+      femmes enceintes et vierge martyre qui aurait tenu tête au gouverneur
+      Olybrius et survécu à un dragon.</note></persName>, &amp; pren de toy
+      pitié.</l>
+      <l>Ta grand beaulté te soit recommandée,</l>
+      <l>Qui <note type="gloss">deust <label>vb. «devoir»+inf. à la
+      3PS</label></note>par toy, commɇ Or, estre gardee.</l>
+      <l>Si mercy n’as &amp; pitié de toymesmes,</l>
+      <l>Tu sentiras torments grands &amp; extremes :</l>
+      <l>Adore donc, belle adore noz Dieux,</l>
+      <l>A celle fin qu’il t’en soit beaucoup mieux.</l>
+      <l><space quantity="2" unit="cm"/>Quand i’entendy vne telle <note
+      type="gloss">semonce<label>convocation impérative</label></note></l>
+      <l>Ie luy vsay d’une telle response.</l>
+      <l>Celuy ie veux aymer &amp; craindrɇ ensemble</l>
+      <l>Et adorer, soubs qui Terrɇ &amp; Ciel tremble,</l>
+      <l>Que la Mer crainct, &amp; tous les animaux</l>
+      <l>Que nous voyons au Monde plein de maux.</l>
+      <l><note type="gloss">Oyant <label>vb. «ouïr», partic.
+      présent</label></note>mes <note type="gloss">dicts <label>subst.
+      «dires»</label></note>le Tyrant plein d’audace</l>
+      <l>De mon corps fairɇ escorcher me menace,</l>
+      <l>Auquel ie dy, en eleuant mon <note
+      type="gloss">chef<label>tête</label></note>,</l>
+      <l>Ie te responds ô Tyrant <note type="gloss">de rechef<label>adv.
+      «derechef», de nouveau</label></note>.</l>
+      <l>Puis que mon Dieu voulut souffrir &amp; prendre</l>
+      <l>La Mort pour moy, ie ne veux entreprendre</l>
+      <l>De refuser mortifere torment</l>
+      <l>Quoy que ie soys puniɇ iniustement.</l>
+      <l>Et ne te doy en rien doubter &amp; craindre,</l>
+      <l>Car le seul corps tu as pouuoir d’<note
+      type="gloss">estaindre<label>vb. «éteindre», tuer</label></note>,</l>
+      <l>Mais sur mon amɇ il te conuient scauoir</l>
+      <pb n="f. 27 r°"/>
+      <l>Ie crains celluy seulement, qui peult nuire</l>
+      <l>Au corps mortel, auβi l’ame destruire.</l>
+      <l>Lors ce <persName key="prévot">Preuost<note type="index">Officier de
+      justice ou administrateur</note></persName> ayant plus de durté</l>
+      <l>Qu’Ours <note type="gloss">ne <label>conjonction,
+      «ou»</label></note>Lyons remplis de cruaulté,</l>
+      <l>Me faict lier, pour mon corps nud estendre,</l>
+      <l>Et flageller ma chair tant ieune &amp; tendre.</l>
+      <l>Bourreaux <note type="gloss">irez<label>en colère</label></note>,
+      <note type="gloss">enflez<label>rendus orgueilleux</label></note>, &amp;
+      inhumains,</l>
+      <l>N’espargnent pas leurs violentes mains.</l>
+      <l>Croy ma <persName key="nourriceDeMarguerite">Nourrice<note
+      type="index">Ancienne nourrice fictive de Marguerite
+      d’Antioche.</note></persName> &amp; soys toute certaine</l>
+      <l>Que de mon corps sembloit vne Fontaine,</l>
+      <l>Dont les conduicts par foys sont desbouschez.</l>
+      <l>Le faulx <persName key="tyran">Tyrant<note type="index">Référence à
+      Olibrius.</note></persName> en à ses yeulx bouschez</l>
+      <l>Voyant ma chair iusq’aux os <note type="gloss">descirée<label>vb.
+      «déchirer», partic. passé</label></note>.</l>
+      <l><orig>O</orig>
+<reg>Ô</reg> que la Mort fut par moy desyrée</l>
+      <l>En ce tourment ? ô (disois ie) Seigneur</l>
+      <l>A qui ie doy gloire, <note
+      type="gloss">los<label>réputation</label></note>, &amp; honneur,</l>
+      <l>Donne confort à la <note type="gloss">desconfortée<label>forme
+      substantivée du vb. «desconforter», affliger</label></note></l>
+      <l>Qui iusq’icy sa peinɇ <choice>
+          <orig>à</orig>
+          <reg>a</reg>
+        </choice>supportée,</l>
+      <l>Deliure moy de ce Mondɇ insensé</l>
+      <l>Auquel tu es des meschants offensé.</l>
+      <l>Et neantmoins ô Createur parfaict</l>
+      <l>Non pas le mien, mais ton vouloir soit faict.</l>
+      <l><space quantity="2" unit="cm"/>Puis au <persName
+      key="prévot">Preuost<note type="index">Officier de justice ou
+      administrateur</note></persName> disois, ô sacrilege,</l>
+      <l><orig>O</orig>
+<reg>Ô</reg>chien cruel tu as le preuilege</l>
+      <l>De mettrɇ à Mort mon vil corps corruptible,</l>
+      <l>Mais rien ne peux sur mon ame sensible.</l>
+      <pb n="f. 27 v°"/>
+      <l>Elle se fiɇ en plus fort defenseur</l>
+      <l>Que tu n’es grand &amp; cruel offenseur.</l>
+      <l>De ces propos ausquelz ie m’esuertuɇ</l>
+      <l>Aucuns ploroient me voir ainsi batuɇ</l>
+      <l>Et me disoient ô belle Marguerite</l>
+      <l>Vn tel torment ta beaulté ne merite.</l>
+      <l>Pitié nous <choice><orig>meut</orig><reg>émeut</reg></choice> d’ainsi voir ta chair nue</l>
+      <l>Qui par Bourreaux <choice>
+<orig>iusq</orig>
+<reg>jusqu'a</reg>
+        </choice>’aux os se desnue</l>
+      <l><choice>
+<orig>O</orig>
+<reg>Ô</reg>
+        </choice> que ta face ha <note
+      type="gloss">piteux<label>Pitoyable</label></note></l>
+      <l>Qui à chascun donnoit contentement?</l>
+      <l><choice>
+<orig>O</orig>
+<reg>Ô</reg>
+        </choice> que tu es de beaulté <note
+      type="gloss">desgarnie<label>Depourvu, privé</label></note></l>
+      <l>Dont tu estois si richement garnie?</l>
+      <l>Qu’est deuenu le doux <note type="gloss"><note
+      type="gloss">traict<label>Idée de tir, projectil</label></note></note>
+      de tes yeux,</l>
+      <l>Et ton visage humain &amp; gracieux?</l>
+      <l>Ou est ta chair delicate &amp; polie?</l>
+      <l>Las ta beaulté est ia toute abolie,</l>
+      <l>Si te prions <note type="gloss">ores<label>Maintenant</label></note>
+      te conuertir</l>
+      <l>Pour le torment si aspre ne sentir,</l>
+      <l>Car dommage est si vierge tant naïue</l>
+      <l>Est mise au feu par loy trop abusiue.</l>
+      <l>Deuinez lors si les <note type="gloss">dicts<label>Paroles,
+      propos</label></note> me plaisoient</l>
+      <l>Des ignorants,qui ainsi s’<note type="gloss">abusoient<label>se
+      tromper, se méprendre</label></note>?</l>
+      <l>Non,mais du corps ma <note type="gloss">peine<label/></note> estoit
+      doublée,</l>
+      <l>L’ame pourtant en estoit moins troublée.</l>
+      <l>En leur disant,ô Conseillers <note type="gloss">iniques<label>Cruel,
+      injuste</label></note></l>
+      <l>Fuyez de moy,fuyez Diaboliques,</l>
+      <l>Tous voz propos sont propos de la Chair</l>
+      <pb n="28"/>
+      <l>Mais de l’esprit ne pouuez approcher.</l>
+      <l>Au corps mortel telle blessure faicte</l>
+      <l>Rendra mon ame enuers Dieu plus perfaicte.</l>
+      <l><note type="gloss">Voire<label>Vrai</label></note> &amp; si croy que telle affliction</l>
+      <l>De mon esprit sera saluation.</l>
+      <l>C’est le Seigneur qui permect à ceste heure</l>
+      <l>Que pour l’honneur de son sainct nom ie meure.</l>
+      <l>Ce que ie veux,&amp; à la Mort consens</l>
+      <l>Pour <note type="gloss">esprouuer<label>Mettre à
+      l'épreuve</label></note> mon ame entre cinq cens</l>
+      <l>Glaiues,torments,menaces,feux <note
+      type="gloss">austeres<label>Âpres</label></note>,</l>
+      <l>Pour mieux garder de ma foy les misteres.</l>
+      <l>Quand le Tyrant eut le regard <note
+      type="gloss">saoullé<label>Satisfaire, combler</label></note></l>
+      <l>Du sang yssu de mon corps tout <note
+      type="gloss">foullé<label>Malmener, maltraiter,
+      blesser</label></note>,</l>
+      <l>Il commanda de rechef qu’on me meine</l>
+      <l>En la prison,ou vn deuil ie <note
+      type="gloss">demeine<label>Séjourne</label></note></l>
+      <l>Si douloureux,plaintif,&amp; lamentable,</l>
+      <l>Que les Lyons,qui n’ont sens raisonnable,</l>
+      <l>En me voyant me prendroient à mercy</l>
+      <l>Plus doulcement que ce <persName key="Prévot"><note
+      type="index">Officier de justice ou
+      administrateur</note>Preuost</persName> icy</l>
+      <l>Car si i’estois soubs leurs pattes liurée,</l>
+      <l>Plus tost serois de leurs dents deliurée,</l>
+      <l>Que de ce faulx &amp; outrageux <persName key="Tyrant">Tyrant<note
+      type="index"/></persName></l>
+      <l>Qui vne vierge ainsi va martirant.</l>
+      <l>Et qui m’est <note type="gloss">grief<label>Rancoeur, dette, conflit
+      (légal)</label></note> en prison ie suis seule</l>
+      <l>De maints Crapaux me voyant soubs la gueule,</l>
+      <l>Et quand ainsi toute seule ie suis</l>
+      <l>Ma triste plaincte addresser ie ne puis</l>
+      <l>Fors à mon Dieu plein de grace infinie.</l>
+      <l>C’est luy,c’est luy qui me tient compagnie</l>
+      <l>En cest obscur,&amp; trop <note
+      type="gloss">piteux<label>Pitoyable</label></note><label/> manoir</l>
+      <l>Qui du venin de Serpents est tout noir.</l>
+      <l>Certainement ma <persName key="Nourrice">Nourrice</persName> c’est luy,</l>
+      <l>En qui i’ay mis hardiment mon appuy.</l>
+      <l>Et de luy seul suis mieux accompagnée</l>
+      <l>Que si i’estois de cent <note type="gloss">enuironné<label>Entourer
+      qqn/qqc</label></note>.</l>
+      <l>Ce qui a faict <persName ref="#satan">le ministre</persName> d’<placeName ref="#enfer">Enfer</placeName></l>
+      <l>Ces iours passez d’enuye s’eschauffer,</l>
+      <l>Car longuement par luy ie fus tentée</l>
+      <l>Pource qu’estois en la foy bien plantée.</l>
+      <l>Et luy qui sçait par fraude <note type="gloss">coustumiere<label>Habituel,usuel</label></note></l>
+      <l>Se desguiser en Ange de lumiere</l>
+      <l>Se transmua pour lors,&amp; print la forme</l>
+      <l>D’un fier dragon,perilleux &amp; diforme.</l>
+      <l>Iettant le feu par la gueule &amp; nazeaux</l>
+      <l>Qui resembloient à deux ardents fourneaux.</l>
+      <l>Lors vers le <placeName key="">Ciel<note
+      type="index">Métaphore du paradis</note></placeName> i’adressay vn cantique</l>
+      <l>Pour de <persName ref="#satan">Satan</persName> confondre l’art
+      magique,</l>
+      <l>Car qui de <persName key="jesusChrist"><note
+      type="index">Prophète des chrétiens</note>Dieu Iesuchrist</persName> le nom chante,</l>
+      <l>Il n’a pas peur que le <persName ref="#satan">Diable</persName> l’enchante,</l>
+      <l>Contre lequel si constante ie fus</l>
+      <l>Qu’il s’en alla tout honteux &amp; confus.</l>
+      <l>Et si tu veux ô ma chere <persName ref="#nourrice">Nourrice</persName>,</l>
+      <l>De ce Dragon auoir autre notice,</l>
+      <l>C’estoit la chair,qui aux yeux me mettoit</l>
+      <pb n="29"/>
+      <l>Le grand torment,qui me persecutoit,</l>
+      <l>Me suadant pour l’honneur transitoire</l>
+      <l>De denigrer de <persName ref="#jesusChrist">Iesuchrist</persName> la gloire,</l>
+      <l>Et me donnoit de la Mort vne crainte,</l>
+      <l>A cellefin que ie fusse contraincte</l>
+      <l>De renoncer la loy de mon <persName ref="#jesusChrist">Sauueur</persName>,</l>
+      <l>Pour du <persName key="olibrius"><note
+      type="index"/>Tyrant</persName> auoir grace &amp; faueur.</l>
+      <l>Le fier Dragon,c’est la chair affamée,</l>
+      <l>Dont la personne est souuent diffamée.</l>
+      <l>Car de <persName ref="#satan">Satan</persName> la chair est la
+      compagne</l>
+      <l>Qui les pecheurs en <placeName ref="#enfer">Enfer</placeName> accompagne,</l>
+      <l>Quoy preuoyant par inspiration</l>
+      <l>Va(dis ie)chair de malediction,</l>
+      <l>Il ne me chault de ceste humaine vie</l>
+      <l>Pourueu qu’au <placeName ref="#ciel">Ciel</placeName> mon ame soit .<note type="gloss">rauie<label>Transporté hors de soi, exalté, envoûté</label></note></l>
+      <l>Dragon infect dont l’astuce s’efforce,</l>
+      <l>Ie ne te crains,ie <note type="gloss">despite<label>Mépriser, dédaigner, traiter avec mépris</label></note> ta force,</l>
+      <l>Laisse moy donc,ô maudict <persName ref="#satan">Satanas</persName>,</l>
+      <l>Puis que sur moy aucun pouuoir tu n’as.</l>
+      <l>Voyla l’assault &amp; combat ordinaire</l>
+      <l>Que me faisoit <persName ref="#satan">Satan</persName> mon aduersaire,</l>
+      <l>Auquel par foy,ou ie veux persister,</l>
+      <l>En la prison i’ay bien sceu resister.</l>
+      <l>Ce n’est pas tout,aduint apres ce iour.</l>
+      <l>Qu’<persName key="olibrius">Olibrius<note type="index">Gouverneur
+      d'Antioche</note></persName>(sans faire aucun seiour)</l>
+      <l>De mainte torche ardente &amp; allumée</l>
+      <l>Feit flamboyer ma chair ia entamée,</l>
+      <l>Puis esperant que par diuersité</l>
+      <l>D’aspres torments,mon cueur seroit dompté,</l>
+      <l>Il commanda me mettre en vn .</l>
+      <l>Fort gros &amp; grand,qui estoit rempli d’eau.</l>
+      <l><note type="gloss">Cuydant<label>Croire à tort, s'imaginer</label></note> ainsi le  <persName><persName key="Tyrant">Tyrant<note
+      type="index"/></persName></persName>  plein de vice</l>
+      <l>Que ie ferois aux <note type="gloss">Idoles<label>Représentation d'une divinité païenne</label></note> seruice,</l>
+      <l>Mais viue foy attachée en mon cueur</l>
+      <l>Le garde bien d’estre sur moy vainqueur,</l>
+      <l>Bien que chascun,qui voit ma chair s’estendre,</l>
+      <l>Soit esbahy,comme se peult defendre</l>
+      <l>De tant de maux vne tant simple vierge.</l>
+      <l>Mais <persName ref="#jesusChrist">Iesuchrist</persName> de mon ame <note
+      type="gloss">concierge<label>Protecteur, défenseur de</label></note></l>
+      <l>Donnoit vigueur aux membres affligez,</l>
+      <l>Dont tout subit(tous mes sens allegez)</l>
+      <l>Visiblement i’eschappe du martyre.</l>
+      <l>La <placeName key="">Terre</placeName> alors trembla,ie le puis dire,</l>
+      <l>Car ce voyants cinq mille hommes en eurent</l>
+      <l>La viue foy,&amp; Baptesme receurent,</l>
+      <l>Dont le <persName><persName key="Prévot">Preuost<note
+      type="index"/></persName></persName>,qui <note
+      type="gloss">cuida<label>croire</label></note> <note
+      type="gloss">forcenner<label>Forcer</label></note>,</l>
+      <l>Me faict soubdain en prison ramener,</l>
+      <l>Pour cy apres par loy ie ne scay quelle</l>
+      <l>Mettre la fin à ma vie mortelle,</l>
+      <l>Ie le consens,&amp; m’attends de mourir</l>
+      <l>Sans que ie prye aucun me secourir,</l>
+      <l>Car employant la faueur paternelle,</l>
+      <l>En cest endroict ie serois criminelle,</l>
+      <pb n="30"/>
+      <l>Que i’ay voulu souuent faire l’essay</l>
+      <l>De luy monstrer la loy Apostolique,</l>
+      <l>Et les edicts de la foy Catholique,</l>
+      <l>Mais il estoit plus rude que la Mer</l>
+      <l>Quand elle vient par <note
+      type="gloss">vndes<label>Flots</label></note> escumer.</l>
+      <l>Que la Lyonne aupres de ses petits.</l>
+	<l>Ce qui depuis l’a tousiours animé</l>
+	<l>Encontre moy,&amp; plus enuenimé,</l>
+	<l>Si qu’il ne <note type="gloss">quiert<label>quérir, chercher ou rechercher quelqu'un</label></note> me voir en lieu ne place,</l>
+	<l><note type="gloss">Desaduohant<label>désavouer, renier quelqu'un</label></note> sa fille de sa race.</l>
+	<l>Ne m’estimant sa fille legitime,</l>
+	<l>Tant seulement pource que Dieu i’estime</l>
+	<l>Ce vray agnau, dont l’immolation</l>
+	<l>Nous a serui de <note type="gloss">repurgation<label>purgation, action de purger ou de se purger</label></note>,</l>
+	<l>En nous lauant de son sang precieux</l>
+	<l>Pour nous donner l’heritage des Cieux.</l>
+	<l>Or me pardonne en cela<persName key="Theodose">Theodose<note type="index">Père de Marguerite, qui refuse la conversion au christianisme de sa fille </note></persName></l>
+	<l>Mon perɇ fier, mais de luy dire i’ose,</l>
+	<l>Que si la loy de mon Dieu il n’apprent,</l>
+	<l>De se damner en brief il entreprent.</l>
+	<l>Et quant à moy, le mal ie luy pardonne</l>
+	<l>Qu’il me pourchasse,&amp; licence luy donne</l>
+	<l>De m’accuser, captiue me laisser,</l>
+	<l>Et pour sa fille ores me renoncer,</l>
+	<l>Il ne me <note type="gloss">chault<label>chaloir, avoir de l’importance, importer, être de conséquence</label></note> de perdre l’heritage</l>
+	<l>De tous ses biens, pour en plus seur partage</l>
+	<l>Estre appellée à la succeβion</l>
+	<l>Dont les Esleus ont la posseβion</l>
+	<l>Il ne me chault s’il m’a <note type="gloss">desaduohée<label>désavouer, renier quelqu'un</label></note> sa fille de sa race.</l>,
+	<l>Estant du pere eternel <note type="gloss">aduohée<label>avouer, se vouer à quelqu'un</label></note>.</l>
+	<l>Compte ne fais de son inimitié,</l>
+	<l>Si du diuin pere i’ay l’amitié.</l>
+	<l>Ie ne crains point trouuer la Mort en voye,</l>
+	<l>Pourueu que Dieu en la face ie voye.</l>
+	<l>Ie n’ay pas peur de celle humaine Mort,</l>
+	<l>Puis que mon Dieu faict viure l’homme mort,</l>
+	<l>Mon pere donc face tant le terrible</l>
+	<l>Qu’il luy plaira, en mon torment horrible,</l>
+	<l>Face du pis que bon luy semblera,</l>
+	<l>Moins de mon cueur s’en desassemblera</l>
+	<l>La viue foy,&amp; mon ame tentée</l>
+	<l>En sera moins par luy <note type="gloss">espouuentée<label>épouvantée, frapper d’épouvante, effrayer</label></note>.</l>
+	<l>Face <note type="gloss">apprester<label>apprêter, rassembler, préparer ce qu’il faut</label></note>(si cela bon luy semble)</l>
+	<l>Pour me <note type="gloss">greuer<label>grever, accabler, faire subir des pertes</label></note>tous les torments ensemble,</l>
+	<l>Face dresser vn feu ardent &amp; chaud</l>
+	<l>Pour mon corps vif brusler,il ne m’en chaut.</l>
+	<l>Face trencher de mon corps les parties,</l>
+	<l>Et violer d’Espines,&amp; Ortyes.</l>
+	<l>Face animer de plus grande fureur</l>
+	<l>Olibrius,de ma Mort procureur.</l>
+	<l>Finablement face en tel poinct me mettre</l>
+	<l>Que luy pourra l’ignorance permettre,</l>
+	<l>Il ne m’en chaut:car en vn tel discours</l>
+	<pb n="31"/>
+	<l>Vers vn grand Dieu i’ay refuge &amp; recours,</l>
+	<l>Qui me fera secours comme i’espere,</l>
+	<l>Sur la fureur d’<persName key="Olibrius">Olibre<note type="index">Hypothétique gouverneur romain, et plus particulièrement d'Antioche. Personnage récurrent de légendes populaire qui aurait martyrisé Sainte Marguerite.</note></persName>Olibre, &amp; de mon <persName key="Theodose">pere<note type="index">Père de Marguerite, qui refuse la conversion au christianisme de sa fille</note></persName>,</l>
+	<l>Pere cruel, ayant moins de bontez</l>
+	<l>Que les Taureaux qui ne sont pas domptez,</l>
+	<l>Pere plus <note type="gloss">fier<label>féroce, cruel</label></note>enuers sa fille vnique,</l>
+	<l>Que l’outrageux Serpent quand on le pique.</l>
+	<l>Telle durté à tel pere conuient.</l>
+	<l>Plus de sa fille ores ne luy souuient</l>
+	<l>Qu’il a souuent en criant appaisée,</l>
+	<l>Tenue aux bras, &amp; si souuent baisée.</l>
+	<l>Et toutefoys quoy que rude il me soit</l>
+	<l>En mon torment, qu’iniuste on apperçoit,</l>
+	<l>Ie n’en ay pas la volunté plus fiere,</l>
+	<l>Ains à mon Dieu i’addresse ma priere,</l>
+	<l>Le suppliant qu’il le veuille inspirer,</l>
+	<l>Et de sa loy faulse le retirer.</l>
+	<l>Mesmes pour ceux qui martyre me font</l>
+	<l>Tout droict au Ciel mes prieres s’en vont.</l>
+	<l>Te suppliant ô mon Dieu debonnaire</l>
+	<l>De leur donner par ma Mort l’exemplaire</l>
+	<l>De viue foy, &amp; deuant qu’assoupir</l>
+	<l>De t’inuoquer iusqu’au dernier souspir.</l>
+	<l>Helas Seigneur remectz leur toute offense</l>
+	<l>Car c’est vn peuple ignorant qui t’offense,</l>
+	<l>Olibrius ha les yeux tous couuerts</l>
+	<l>D’obscurité, &amp; iugements peruers,</l>
+	<l>Dont il ne peult en telle obscurité</l>
+	<l>Laisser mensonge, &amp; suyure verité.</l>
+	<l>Voyla Nourrice, ô ma Nourrice bonne</l>
+	<l>Les passetemps, que la prison m’ordonne.</l>
+	<l>Voyla comment le Tyrant oppresseur</l>
+	<l>Des innocents, m’a vsé de doulceur,</l>
+	<l>Et s’il pouuoit encores pis me faire,</l>
+	<l>Il prendroit bien peine d’y satisfaire,</l>
+	<l>Mais ie suis ferme en mon aduersité,</l>
+	<l>Et n’ay le cueur à tremeur incité,</l>
+	<l>Ains m’esiouy en la saincte parolle</l>
+	<l>De <persName key="jesusChrist">Iesuchrist<note type="index">Jésus Christ, juif de Palestine, personnage central des quatre Évangiles et fondateur du christianisme.</note></persName>, qui mon ame console,</l>
+	<l>Rememorant les graces &amp; biensfaicts</l>
+	<l>Que ce grand Dieu par son fils nous a faicts</l>
+	<l>Le deliurant aux Bourreaux inhumains,</l>
+	<l>Pour estre ainsi le salut des humains,</l>
+	<l>En ensuyuant sa pitoyable enuie</l>
+	<l>De pendre en croix pour nous donner la vie.</l>
+	<l>Ie pense bien que toy sachant ma prise</l>
+	<l>D’espandre pleurs ne perdras l’entreprise,</l>
+	<l>Voire d’amour &amp; bien que tu me veux</l>
+	<l>Arracheras soubdain tes blancs cheueux.</l>
+	<l>Mais ie te prye ô ma parfaicte amye</l>
+	<l>De ne plorer ma fortune ennemie.</l>
+	<l>Elle me plaist, ie la veux approuuer</l>
+	<l>C’est Dieu qui veult sa seruante esprouuer</l>
+	<l>Ainsi que l’Or s’esprouue en la Fornaise.</l>
+	<pb n="32"/>
+	<l>Par ces torments ma pauurɇ ame s’appaise.</l>
+	<l>Par ces torments mes esprits sont contents,</l>
+	<l>Et aux thresors celestes ie pretends.</l>
+	<l>Bien preuoyant par loy mal vsurpée,</l>
+	<l>Le temps, ou doibt ma teste estre couppée,</l>
+	<l>Ainsi que m’a le Geolier fait sçauoir</l>
+	<l>Qui de mes maux peult congnoissance auoir.</l>
+	<l>Si te supply en si piteusɇ attente</l>
+	<l>Par quelque escript me rendrɇ vn peu contente.</l>
+	<l>Et ce pendant ie pryɇ au Createur</l>
+	<l>Qu’il soit tousiours de toy <note type="gloss">conseruateur<label>gardien, garant, protecteur</label></note>,</l>
+	<l>En te donnant la fortune plus libre</l>
+	<l>Que ie ne l’ay soubs le <note type="gloss">preuost<label>prévôt, officier de justice ou administrateur</label></note><persName key="Olibrius">Olibre<note type="index">Hypothétique gouverneur romain, et plus particulièrement d'Antioche. Personnage récurrent de légendes populaire qui aurait martyrisé Sainte Marguerite.</note></persName>.</l>
+    </body>
+  </text>
+</TEI>
