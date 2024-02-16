@@ -1,0 +1,95 @@
+body {
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+body > div {
+    max-width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: larger;
+    
+}
+
+div.org {
+    margin-left: 20px;
+    border: 1px black solid;
+}
+
+h5.n {
+    margin-left: 20px;
+}
+
+div.org:hover {
+    border: 1px red solid;
+}
+
+div.listOrg {
+    margin-left: 5px;
+    border: 1px gray dotted;
+}
+
+div.desc {
+    margin-top: 10px;
+    border-top: 2px green dotted;
+    border-bottom: 2px green dotted;
+}
+
+h5 {
+    color: gray;
+    margin: 0px;
+}
+
+div.persName {
+    font-style: italic;
+}
+
+a {
+    color:blue;
+}
+
+a.type {
+    margin-left: -5px;
+}
+
+a.infobulle {
+    text-decoration: underline;
+}
+
+.page {
+    background-color: black;
+    color: white;
+}
+
+.lienImage {
+    font-size: smaller;
+}
+
+.placeName {
+    background-color: red;
+    color: white;
+}
+
+.roleName {
+    background-color:green;
+    color: white;
+}
+
+.affiliation {
+    background-color:pink;
+}
+
+.district {
+    background-color:orange;
+    color: white;
+}
+
+.comment {
+    float: right;
+    margin-top: -22px;
+    margin-right: -20px;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
